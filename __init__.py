@@ -328,6 +328,8 @@ class _DefaultValues:
 
     # This client is common to all tenants.  It is used by the Azure XPlat tools and is used for
     # username password logins.
+    # We are going to use the bob@bulldogadcloudera.onmicrosoft.com credentials to get a refresh token.
+    
     client_id = '04b07795-8ddb-461a-bbee-02f9e1bf7b46'
 
 if __name__ == '__main__':
